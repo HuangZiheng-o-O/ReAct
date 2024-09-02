@@ -1,0 +1,124 @@
+3687 Claim: Paramore is not from Tennessee.
+Thought 1: I should search for Paramore, and see if it is from Tennessee.
+Action 1: Search[Paramore]
+Observation 1: Pages for logged out editors learn more. Paramore is an American rock band from Franklin, Tennessee, formed in 2004. The band currently consists of lead vocalist Hayley Williams, guitarist Taylor York and drummer Zac Farro. Williams and Farro are founding members of the group, while York, a high school friend of the original lineup, joined in 2007. The band is signed to Fueled by Ramen, a subsidiary of Atlantic Records, both owned by Warner Music Group.
+
+Thought 2: The observation says that the band is "from Franklin, Tennessee", so the claim is false.
+Action 2: Finish[REFUTES]
+Observation 2: Episode finished, reward = 1
+
+
+{'steps': 2, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': 3687, 'em': 1, 'reward': 1, 'f1': 1} 
+
+1 1 1.0 4.081380128860474
+-----------
+
+6238 Claim: Eric Church is a sound mixer.
+Thought 1: I need to search Eric Church and see if it says he is a sound mixer.
+Action 1: Search[Eric Church]
+Observation 1: Pages for logged out editors learn more. Kenneth Eric Church (born May 3, 1977) is an American country music singer-songwriter. He has released nine studio albums through Capitol Nashville since 2005. His debut album, 2006's Sinners Like Me, produced three singles on the Billboard country charts including the top 20 hits "How 'Bout You", "Two Pink Lines", and "Guys Like Me".. His second album, 2009's Carolina, produced three more singles: "Smoke a Little Smoke" and his first top 10 hits, "Love Your Love the Most" and "Hell on the Heart".
+
+Thought 2: The observation does not say if he is a sound mixer, so I cannot say if the claim is true or false.
+Action 2: Finish[NOT ENOUGH INFO]
+Observation 2: Episode finished, reward = 1
+
+
+{'steps': 2, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': 6238, 'em': 1, 'reward': 1, 'f1': 1} 
+
+2 2 1.0 3.367874503135681
+-----------
+
+5388 Claim: Victoria Palace Theatre is barely in the West End.
+Thought 1: I should search for the Victoria Palace Theatre and see if it is in the West End.
+Action 1: Search[Victoria Palace Theatre]
+Observation 1: Pages for logged out editors learn more. The Victoria Palace Theatre is a West End theatre in Victoria Street, in the City of Westminster, opposite Victoria Station. The structure is categorised as a Grade II* listed building.. The theatre began life as a small concert room above the stables of the Royal Standard Hotel, a small hotel and tavern built in 1832 at what was then 522 Stockbridge Terrace, on the site of the present theatre – not, as sometimes stated, on land where the train station now stands. The proprietor, John Moy, enlarged the building, and by 1850 it became known as Moy's Music Hall.
+
+Thought 2: The observation says that the theatre is in the "West End", so the claim is true.
+Action 2: Finish[SUPPORTS]
+Observation 2: Episode finished, reward = 0
+
+
+{'steps': 2, 'answer': 'SUPPORTS', 'gt_answer': 'REFUTES', 'question_idx': 5388, 'em': 0, 'reward': 0, 'f1': 0} 
+
+2 3 0.6666666666666666 3.55368701616923
+-----------
+
+3522 Claim: Civilization IV was hailed as a masterwork of filmmaking.
+Thought 1: I should search Civilization IV and see if it was hailed as a masterwork of filmmaking.
+Action 1: Search[Civilization IV]
+Observation 1: Pages for logged out editors learn more. Civilization IV (also known as Sid Meier's Civilization IV) is a 4X turn-based strategy computer game and the fourth installment of the Civilization series, and designed by Soren Johnson under the direction of Sid Meier and his video game development studio Firaxis Games. It was released in North America, Europe, and Australia, between October 25 and November 4, 2005, and followed by Civilization V.. Civilization IV uses the 4X empire-building model for turn-based strategy gameplay, in which the player's main objective is to construct a civilization from limited initial resources. Most standard full-length games start the player with a settler unit and/or a city unit in the year 4000 BC.
+
+Thought 2: The observation does not say anything about the claim, so I need to find another source.
+Action 2: Lookup[masterwork of filmmaking]
+Observation 2: No more results.
+
+
+Thought 3: I need to find another source to see if Civilization IV was hailed as a masterwork of filmmaking.
+Action 3: 
+
+Finish[NOT ENOUGH INFO]
+Observation 3: Invalid action: Finish[NOT ENOUGH INFO]
+
+Thought 4: I need to find another source to see if Civilization IV was hailed as a masterwork of filmmaking.
+Action 4: 
+
+Finish[NOT ENOUGH INFO]
+Observation 4: Invalid action: Finish[NOT ENOUGH INFO]
+
+Thought 5: I need to find another source to see if Civilization IV was hailed as a masterwork of filmmaking.
+Action 5: 
+
+Finish[NOT ENOUGH INFO]
+Observation 5: Invalid action: Finish[NOT ENOUGH INFO]
+
+Thought 6: I need to find another source to see if Civilization IV was hailed as a masterwork of filmmaking.
+Action 6: 
+
+Finish[NOT ENOUGH INFO]
+Observation 6: Invalid action: Finish[NOT ENOUGH INFO]
+
+Thought 7: I need to find another source to see if Civilization IV was hailed as a masterwork of filmmaking.
+Action 7: 
+
+Finish[NOT ENOUGH INFO]
+Observation 7: Invalid action: Finish[NOT ENOUGH INFO]
+
+{'steps': 8, 'answer': '', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': 3522, 'em': 0, 'reward': 0, 'f1': 0} 
+
+2 4 0.5 5.020407736301422
+-----------
+
+3824 Claim: Marnie is a film.
+Thought 1: I should search for Marnie and see if it is a film.
+Action 1: Search[Marnie]
+Observation 1: Pages for logged out editors learn more. Marnie is an English crime novel, written by Winston Graham and first published in 1961. It has been adapted as a film, a stage play and an opera.. Marnie is about a young woman who makes a living by embezzling her employers' funds, moving on, and changing her identity. Her criminal behaviour is described in detail, but her motives remain obscure, as she is a capable person who would have likely fared well in an honest career..
+
+Thought 2: The observation says that it has been "adapted as a film", so it should be a film.
+Action 2: Finish[SUPPORTS]
+Observation 2: Episode finished, reward = 1
+
+
+{'steps': 2, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': 3824, 'em': 1, 'reward': 1, 'f1': 1} 
+
+3 5 0.6 4.520067405700684
+-----------
+
+2866 Claim: Buffy Summers appears only in a television series.
+Thought 1: I need to search Buffy Summers and see if she only appears in a television series.
+Action 1: Search[Buffy Summers]
+Observation 1: Pages for logged out editors learn more. Buffy Anne Summers is the title character of the Buffy the Vampire Slayer franchise. She first appeared in the 1992 film Buffy the Vampire Slayer before going on to appear in The WB/UPN 1997–2003 television series and subsequent 1998–2018 Dark Horse and 2019–present Boom! Studios comic series of the same name. The character has also appeared in the spin-off series Angel, as well as numerous expanded universe materials such as novels and video games. Buffy was portrayed by Kristy Swanson in the film and by Sarah Michelle Gellar in the television series.
+
+Thought 2: The observation says that she has appeared in a film and a television series, so the claim is false.
+Action 2: Finish[REFUTES]
+Observation 2: Episode finished, reward = 1
+
+
+{'steps': 2, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': 2866, 'em': 1, 'reward': 1, 'f1': 1} 
+
+4 6 0.6666666666666666 4.181553324063619
+-----------
+
+1551 Claim: Robert Palmer (writer) isn't a journalist.
+Thought 1: I should search Robert Palmer (writer) and see if he is a journalist.
+Action 1: Search[Robert Palmer (writer)]
+Observation 1: Pages for logged out editors learn more. Robert Franklin Palmer Jr. (June 19, 1945 – November 20, 1997) was an American writer, musicologist, clarinetist, saxophonist, and blues producer. He is best known for his books, including Deep Blues;[2] his music journalism for The New York Times and Rolling Stone magazine;[3]: 161  his work producing blues recordings and the soundtrack of the film Deep Blues; and his clarinet playing in the 1960s band the Insect Trust.[4]  A collection of his writings, Blues & Chaos: The Music Writing of Robert Palmer, edited by Anthony DeCurtis, was published by Simon & Schuster on November 10, 2009.. Palmer was born in Little Rock, Arkansas, the son of a musician and school teacher, Robert Palmer Sr.
